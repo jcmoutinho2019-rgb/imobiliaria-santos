@@ -1,0 +1,166 @@
+/* Importa a fonte Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+/* Reset básico */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Estilo do corpo */
+body {
+    font-family: "Inter", sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+/* Estilos globais nas seções */
+.container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+/* Definição de Largura Máxima para o conteúdo principal */
+section .container,
+footer .container {
+    max-width: 980px; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px; /* Pequeno espaçamento nas laterais */
+    padding-right: 20px;
+}
+/* Estilo de parágrafo */
+p {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    /* Ajusta o parágrafo ao container */
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+/* Centralizar o parágrafo após o Google Maps */
+.p-contato {
+    text-align: center;
+    background-color: #1d1d1d;
+    padding: 15px;
+    font-size:medium;
+}
+.img-assinatura, .img-corretores {
+    max-width: 450px; /* Garante que a imagem se ajuste */
+    height: auto;
+}
+
+/* Estilo do cabeçalho */
+h1 {
+    color: #1d1d1d;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+h2 {
+    color: #1d1d1d;
+    font-weight: 600;
+}
+
+
+/* Estilo da Seção 1 (Header/Menu) */
+.secao-1 {
+    background-color: #afddfb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.logo-imobiliaria img {
+    width: 150px;
+    margin-bottom: 15px; /* Espaço entre logo e nav */
+}
+nav a {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #1d1d1d;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/* Banner */
+.banner-principal img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Seções Serviços e Contato */
+.secao-azul {
+    background-color: #1c81c0;
+    color: #fff;
+}
+.secao-azul h2, 
+.secao-azul p,
+.secao-azul a {
+    color: #fff;
+}
+.secao-azul span {
+    color: #f7d309; /* Cor de destaque para spans dentro da seção azul */
+    font-weight: bold;
+}
+.destaque-azul {
+    color:#1c81c0;
+    font-weight: bold;
+}
+
+/* Lista de Serviços (Ul da Seção Serviços) */
+.lista-servicos {
+    list-style: none;
+    padding: 0; 
+    margin: 20px auto; 
+    text-align: center;
+    max-width: 400px; /* Largura para centralizar a lista */
+}
+.lista-servicos li {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+
+/* Lista de Contato - Links estilo botões */
+.lista-contato {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    text-align: center;
+}
+.lista-contato li {
+    margin: 10px 0;
+}
+.lista-contato a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s, color 0.3s;
+}
+.lista-contato a:hover {
+    background-color: #fff;
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Rodapé */
+footer {
+    color: #696868;
+    padding: 10px 0;
+    font-size: 14px;
+    text-align: center;
+}
+footer p {
+    text-align: center;
+    margin: 0;
+}
